@@ -1,0 +1,9 @@
+{
+  "name": "atividade",
+  "version": "1.0.0",
+  "description": "leitura de arquivo em um packagejson ",
+  "main": "index.js",
+  "author": "Guilherme",
+  "license": "MIT",
+  "type": "module"
+}
