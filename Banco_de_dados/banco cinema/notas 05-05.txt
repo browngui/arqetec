@@ -1,0 +1,44 @@
+SUM - Função de soma dentro do banco de dados. Dica: Deixe o valor da função junto a função.
+
+Ex: Select sum(duracao) from table Filme_tb;
+
+
+AVG - Faz a média de valores.
+
+MIN - Valor minimo. Permite colocar dados do tipo varchar e vai colocar em ordem alfabetica de A-Z.
+
+COUNT - Faz a contagem de itens selecionados e mostra depois.
+
+PRDER BY - Comando responsavel por realizar uma "ordenação por" determinado campo
+
+group by - Utilizado para agrupar determinados dados a partir de sua escolha
+
+order by 
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Exibibe todos os dados de umas tabela e com o ORDER BY ele fica em ordem alfabetica. 
+ex: select * from Filme_tb order by nome_filme;
+**Caso queira que seja ordenado de forma decrecente, basta por DESC;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Select * from Diretor_tb where nome_diretor like " alguma letra + % "; 
+
+
+select * from Diretor_tb where nome_diretor = "nome do diretor";
+
+* o sinal de porcentagem serve como um coringa
+e possibilita que você encontre o nome de pessoas do seu banco a partir da letra inical do seu nome.
+* não possue espaços entre as aspas ao utilizar o buscador
+* se colocar 2 sinais de porcentagem, ex: % a% o banco ira verificar todos os nomes com letra A no começo e no final.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Limit permite que vc coloque um limite de dados que serão apresentados ao usuario
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Interval 
